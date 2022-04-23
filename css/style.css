@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+#main{
+	width: 100%;
+	height: 100vh;																											
+}
+#home{
+	height: 100px;
+
+
+}
+#home .header{
+	padding: 30px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#home .header h1{
+	width: 100px;
+
+
+}
+#home .header h1 a{
+
+	display: block;
+}
+#home .header h1 a img{
+	width: 100px;
+	display: block;
+}
+	
+}
+#home nav {
+	display: flex;
+	justify-content: space-between;
+
+}
+#home nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+#home nav ul li{
+	margin-right: 40px;
+}
+#home nav ul li:last-child{
+	margin-right: 0px;
+}
+#home div.right{
+	align-items: center;
+
+}
+#home div.right ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#home div.right ul li{
+	margin-right: 40px;
+}
+#home div.right ul li:last-child{
+	margin-right: 0px;
+}
+#home div.right .button{
+	padding: 8px 16px;
+	border: 1px solid;
+	border-radius: 14px;
+	
+}
+#home div.right .button a{
+	color: #1336e5;
+	font-weight: bold;
+}
+#spotlight{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+#spotlight .container{
+	display: flex;
+	margin-left: 20px;
+
+}
+#spotlight .container .left{
+	margin-top: 40px;
+	padding: 50px 80px;
+	width: 50%;
+}
+#spotlight .container .left h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	color: #000;
+	padding: 20px 0px;
+}
+#spotlight .container .left p{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	opacity: .5;
+}
+#spotlight .container .left a.button{
+	width: 150px;
+	padding: 15px 30px;
+	background:#1336e5;
+	color: #fff;
+	border-radius: 25px;
+	display: block;
+	
+}
+#spotlight .container .left ul{
+	margin-top: 60px;
+
+}
+#spotlight .container .left ul li{
+	opacity: .5;
+	
+
+}
+#spotlight .container .left ul li img{
+	width: 15px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#spotlight .container .right{
+	background-image: url(../images/mesh.png);
+	background-repeat: no-repeat;
+	background-position: bottom 20px right 70px;
+	position: relative;
+}
+#spotlight .container .right div{
+	position: absolute;
+	padding: 20px;
+	width: 320px;
+	background:#181840;
+	bottom: 65px;
+	left: 27px;
+
+}
+#spotlight .container .right div p{
+	padding: 20px 0;
+	color: #fff;
+	font-size: 16px;
+
+}
+#spotlight .container .right div h6{
+	color: #fff;
+}
+#spotlight .container .right div small{
+	color:#7d77d3;
+	opacity: .5;
+}
+#spotlight .container .right .mesh{
+	position: absolute;
+}
+
+#spotlight .container .right .girl{
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 150px 50px 1px rgb(0,0,0,.25)
+}
+#spotlight .container .right .quote{
+	position: absolute;
+	width: 50px;
+	bottom: 218px;
+} 
+
+#spotlight .container .right div.shadow{
+	
+	widows: 60%;
+	position: relative;
+	background: #000;
+	height: 300px;
+}
+
